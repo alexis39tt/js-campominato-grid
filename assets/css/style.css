@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer{
+    padding: 10px 10%;
+    background: white;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    height: 100px;
+    line-height: 80px;
+}
+
+.headbar{
+    justify-content: space-between;
+}
+
+.logo h1{
+    margin-left: 20px;
+}
+
+.logo img{
+    max-width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.difficulty{
+    align-self: flex-end;
+}
+
+.difficulty select{
+    width: 200px;
+    height: 30px;
+    margin: auto 10px;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.difficulty input{
+    width: 100px;
+    height: 30px;
+    margin: auto 10px;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    height: calc(100vh - 150px);
+    background: #7fffd4;
+    padding: 150px auto;
+}
