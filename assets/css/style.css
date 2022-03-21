@@ -5,7 +5,7 @@
 }
 
 html{
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -43,7 +43,7 @@ header{
 
 .difficulty select{
     width: 200px;
-    height: 30px;
+    height: 25px;
     margin: auto 10px;
     font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
@@ -51,7 +51,7 @@ header{
 
 .difficulty input{
     width: 100px;
-    height: 30px;
+    height: 25px;
     margin: auto 10px;
     font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;

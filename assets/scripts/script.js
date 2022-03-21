@@ -37,13 +37,15 @@ function Build(diff) {
         return rand;
     }
 }
-
-function AddEvent(num){
-    let cell = document.querySelectorAll(".cell");
-    for (i=0; i<num; i++){
-        cell[i].addEventListener("click", () => {
-        });
+function AddEvent(){
+    let cells = document.getElementsByClassName("cell");
+    for (j=0; j<cells.length; j++){
+        cells[j].addEventListener("click", function (){
+            this.style.color = "white"
+            this.style.background = "#6495ed"
+            this.style.cursor = "default"
     }
+    )}
 }
 
 let play = document.getElementById("play");
@@ -51,5 +53,5 @@ let play = document.getElementById("play");
 play.addEventListener("click", () => {
     diff = CheckDiff();
     num = Build(diff);
-    AddEvent(num);
+    AddEvent();
 });
